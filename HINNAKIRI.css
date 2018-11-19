@@ -1,0 +1,31 @@
+	
+.flex-box{
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	background-color:#fff;
+	padding: 20px 40px;
+}
+
+.service-box{
+		border-bottom: 1px solid grey;	
+		padding: 20px 40px;
+}
+
+.box h1{
+	color:#541483;
+	text-transform:uppercase;
+	}
+
+
+.box p{
+	color: black;
+	font-family: Helvetica, Arial;
+}
+
+.box{
+	padding:20px 40px;
+	align-self: center;
+	border-right: 1px solid grey;
+}
+
