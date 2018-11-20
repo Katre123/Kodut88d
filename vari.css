@@ -1,0 +1,15 @@
+#example1 {
+    border: 1px dotted;
+    padding: 30px;
+	margin:100px 100px;
+    box-shadow: 25px 10px 18px #888888;
+	background-color:#D8BFD8;
+	font-size:50px;
+	color:#fff;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
