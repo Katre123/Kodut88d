@@ -1,0 +1,26 @@
+h1{
+	Font-size:30px;
+	color:#541483;
+	font-family:Arial;
+}
+
+.button {
+    background-color: blue;
+	font-size:28px;
+	color:#fff;
+	border:solid #27F8E3 2px;
+	padding: 30px;
+	width: 200px;
+	text-align:center;
+	transition-duration: 1.5s; /*efekti liikumise kiirus*/
+	}
+
+.button:hover {
+	opacity:1;  /*läbipaistvus*/
+	background: #EA67E5; /*selliseks muutub kui kursoriga peale minna*/
+	letter-spacing: 3px; /*tekst muutub paksemaks*/
+	border:solid #27F8E3 4px;/*joone lõpptulemus */
+	}
+
+
+
