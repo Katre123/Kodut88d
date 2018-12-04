@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta charset='utf-8'>
+		<link rel='stylesheet' href='jalatsinr.css'>
+
+</head>
+
+<body>
+	
+	<p id='eur'></p>
+	<p id='usa'></p>
+	<p id='uk'></p>
+	
+	<div class='container'>
+		<h1> UK ja USA jalatsinumbri kalkulaator </h1>
+		
+		<form name='Jalatsinumbrid' id='jnr' >
+			<p>Sisesta siia oma euroopa (EUR) jalatsinumber</p>
+			<input type='number' class='form' >
+	
+		</form>
+		
+		<div class='buttons'>
+	<!--<input type='button'class='buttons' value='Saada!'>
+	<input type='button'class='buttons' value='Tühista!'> <br>-->
+		<button type="submit" class='buttons' value="Submit" onclick="myFunction()">Saada</button>
+		<button type="reset" class='buttons' value="Reset" onclick="myFunction()">Tühista</button> <br>
+			<p> USA jalatsisuurus:</p> <input type='USA' class='result' id='USA1'><br>
+			<p> UK jalatsisuurus: </p> <input type='UK' class='result' id='UK1'>
+	<script src='jalatsinr.js'></script>
+	
+</body>
+
+</html>
